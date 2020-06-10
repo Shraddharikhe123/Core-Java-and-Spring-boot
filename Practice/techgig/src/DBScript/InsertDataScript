@@ -1,0 +1,40 @@
+INSERT INTO MRBookingApp.meetingRoomType (
+
+   type
+)
+VALUES
+    (
+        4
+    ),
+    (
+       8
+    );
+
+
+
+    INSERT INTO MRBookingApp.RoomDetail (
+
+   roomName,
+   building,
+   floor,
+   mRTypeId
+)
+VALUES
+    (
+	'MR1',
+	'BA1',
+	1,
+	1
+    ),
+    (
+	'MR2',
+	'BA1',
+	1,
+	1
+    ),(
+	'MR3',
+	'BA1',
+	1,
+	2
+
+	);
